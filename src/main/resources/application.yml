@@ -1,4 +1,5 @@
 server:
+  max-http-header-size: 64KB
   tomcat:
     #Maximum queue length for incoming connection requests when all possible request processing threads are in use.(100)
     accept-count: 100
